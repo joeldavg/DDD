@@ -9,7 +9,7 @@ public class DriverCreated extends DomainEvent {
     private final Name name;
 
     public DriverCreated(Name name) {
-        super();
+        super("sofkau.driver.drivercreated");
         this.name = name;
     }
 }

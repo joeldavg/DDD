@@ -1,5 +1,7 @@
 package com.sofkau.dddchallenge.driver.values;
 
-public class TruckID {
+import co.com.sofka.domain.generic.Identity;
+
+public class TruckID extends Identity {
 
 }
